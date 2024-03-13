@@ -2,6 +2,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 100px;
 }
 .name_1 > span{
     color: chocolate;
@@ -28,7 +29,17 @@ nav a{
 }
 .btn-primary{
     background-color: darkorange;
-    border-radius: 3px;
+    border-radius: 5px;
     color: white;
     border: 0;
+    padding: 5px 10px;
+}
+
+.banner{
+    display: flex;
+    padding: 30px 30px 30px 150px;
+    align-items: center;
+}
+.pro_pic{
+    width: 300px;
 }
